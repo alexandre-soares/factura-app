@@ -69,6 +69,7 @@ section {
 }
 
 .btn {
+  margin: 2rem 0;
   padding: 1rem 2rem;
   border-radius: 1rem;
   border: none;
@@ -77,7 +78,7 @@ section {
   cursor: pointer;
 
   &--primary {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: var(--primary-white);
   }
 
@@ -92,9 +93,12 @@ p.black {
   font-weight: bolder;
 }
 
+.text-grey {
+  color: var(--text-grey);
+}
+
 h4 {
   font-size: 1.6rem;
   margin-bottom: 1rem;
 }
-
 </style>
